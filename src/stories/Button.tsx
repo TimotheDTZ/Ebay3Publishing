@@ -1,5 +1,6 @@
 import React from 'react';
 import './button.css';
+import '/src/Token/ebay1/neutral-surface.css'
 
 interface ButtonProps {
   /**
@@ -44,7 +45,7 @@ export const Button = ({
       {label}
       <style jsx>{`
         button {
-          background-color: ${backgroundColor};
+          background-color: var(--rebirth-on-surface);
         }
       `}</style>
     </button>

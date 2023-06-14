@@ -1,0 +1,33 @@
+:root {
+    --rebirth-primary-10: 12, 28, 21;
+    --rebirth-primary-20: 15, 35, 28;
+    --rebirth-primary-30: 23, 53, 42;
+    --rebirth-primary-40: 30, 70, 56;
+    --rebirth-primary-50: 38, 88, 70;
+    --rebirth-primary-60: 80, 121, 106;
+    --rebirth-primary-70: 122, 153, 142;
+    --rebirth-primary-80: 163, 186, 178;
+    --rebirth-primary-90: 226, 235, 232;
+
+    --rebirth-secondary-10: 181, 139, 34;
+    --rebirth-secondary-20: 196, 156, 54;
+    --rebirth-secondary-30: 212, 172, 75;
+    --rebirth-secondary-40: 227, 189, 95;
+    --rebirth-secondary-50: 243, 206, 115;
+    --rebirth-secondary-60: 245, 216, 143;
+    --rebirth-secondary-70: 248, 226, 171;
+    --rebirth-secondary-80: 250, 235, 199;
+    --rebirth-secondary-90: 253, 245, 227;
+
+    --rebirth-grey-0: 0, 0, 0;
+    --rebirth-grey-10: 34, 41, 58;
+    --rebirth-grey-20: 53, 60, 80;
+    --rebirth-grey-30: 81, 88, 108;
+    --rebirth-grey-40: 109, 116, 136;
+    --rebirth-grey-50: 137, 143, 160;
+    --rebirth-grey-60: 164, 169, 182;
+    --rebirth-grey-70: 193, 196, 205;
+    --rebirth-grey-80: 221, 223, 228;
+    --rebirth-grey-90: 244, 244, 246;
+    --rebirth-grey-100: 255, 255, 255;
+}

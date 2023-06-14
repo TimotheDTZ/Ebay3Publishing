@@ -1,0 +1,11 @@
+@import url(../../Core/ebay1/colors.css);
+
+:root {
+    --rebirth-surface: rgb(var(--rebirth-grey-100));
+    --rebirth-surface-inverse: rgb(var(--rebirth-grey-90));
+    --rebirth-surface-disabled: rgb(var(--rebirth-grey-50));
+    --rebirth-on-surface: rgba(var(--rebirth-grey-50),0.25);
+    --rebirth-on-surface-weak: rgba(var(--rebirth-grey-10), 0.64);
+    --rebirth-on-surface-extra-weak: rgba(var(--rebirth-grey-10), 0.52);
+    --rebirth-on-surface-disabled: rgba(var(--rebirth-grey-10), 0.32);
+}

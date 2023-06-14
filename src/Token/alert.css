@@ -1,35 +1,35 @@
 @import url(../Core/colors.css);
 
 :root {
-    --rebirth-info-surface: var(--rebirth-info-95);
-    --rebirth-info-surface-inverse: var(--rebirth-info-50);
-    --rebirth-on-info-surface: var(--rebirth-info-30);
-    --rebirth-on-info-surface-inverse: var(--grey-100);
-    --rebirth-info-outline: var(--rebirth-info-50);
-    --rebirth-info-icon: var(--rebirth-info-50);
-    --rebirth-info-icon-inverse: var(--grey-100);
+    --rebirth-info-surface: rgb(var(--rebirth-info-95));
+    --rebirth-info-surface-inverse: rgb(var(--rebirth-info-50));
+    --rebirth-on-info-surface: rgb(var(--rebirth-info-30));
+    --rebirth-on-info-surface-inverse: rgb(var(--rebirth-grey-100));
+    --rebirth-info-outline: rgb(var(--rebirth-info-50));
+    --rebirth-info-icon: rgb(var(--rebirth-info-50));
+    --rebirth-info-icon-inverse: rgb(var(--rebirth-grey-100));
 
-    --rebirth-success-surface: var(--rebirth-success-95);
-    --rebirth-success-surface-inverse: var(--rebirth-success-50);
-    --rebirth-on-success-surface: var(--rebirth-success-30);
-    --rebirth-on-success-surface-inverse: var(--grey-100);
-    --rebirth-success-outline: var(--rebirth-success-50);
-    --rebirth-success-icon: var(--rebirth-success-50);
-    --rebirth-success-icon-inverse: var(--grey-100);
+    --rebirth-success-surface: rgb(var(--rebirth-success-95));
+    --rebirth-success-surface-inverse: rgb(var(--rebirth-success-50));
+    --rebirth-on-success-surface: rgb(var(--rebirth-success-30));
+    --rebirth-on-success-surface-inverse: rgb(var(--rebirth-grey-100));
+    --rebirth-success-outline: rgb(var(--rebirth-success-50));
+    --rebirth-success-icon: rgb(var(--rebirth-success-50));
+    --rebirth-success-icon-inverse: rgb(var(--rebirth-grey-100));
 
-    --rebirth-warning-surface: var(--rebirth-warning-95);
-    --rebirth-warning-surface-inverse: var(--rebirth-warning-50);
-    --rebirth-on-warning-surface: var(--rebirth-warning-20);
-    --rebirth-on-warning-surface-inverse: var(--rebirth-warning-10);
-    --rebirth-warning-outline: var(--rebirth-warning-30);
-    --rebirth-warning-icon: var(--rebirth-warning-30);
-    --rebirth-warning-icon-inverse: var(--rebirth-warning-10);
+    --rebirth-warning-surface: rgb(var(--rebirth-warning-95));
+    --rebirth-warning-surface-inverse: rgb(var(--rebirth-warning-50));
+    --rebirth-on-warning-surface: rgb(var(--rebirth-warning-20));
+    --rebirth-on-warning-surface-inverse: rgb(var(--rebirth-warning-10));
+    --rebirth-warning-outline: rgb(var(--rebirth-warning-30));
+    --rebirth-warning-icon: rgb(var(--rebirth-warning-30));
+    --rebirth-warning-icon-inverse: rgb(var(--rebirth-warning-10));
 
-    --rebirth-danger-surface: var(--rebirth-danger-95);
-    --rebirth-danger-surface-inverse: var(--rebirth-danger-50);
-    --rebirth-on-danger-surface: var(--rebirth-danger-30);
-    --rebirth-on-danger-surface-inverse: var(--grey-100);
-    --rebirth-danger-outline: var(--rebirth-danger-50);
-    --rebirth-danger-icon: var(--rebirth-danger-50);
-    --rebirth-danger-icon-inverse: var(--grey-100);
+    --rebirth-danger-surface: rgb(var(--rebirth-danger-95));
+    --rebirth-danger-surface-inverse: rgb(var(--rebirth-danger-50));
+    --rebirth-on-danger-surface: rgb(var(--rebirth-danger-30));
+    --rebirth-on-danger-surface-inverse: rgb(var(--rebirth-grey-100));
+    --rebirth-danger-outline: rgb(var(--rebirth-danger-50));
+    --rebirth-danger-icon: rgb(var(--rebirth-danger-50));
+    --rebirth-danger-icon-inverse: rgb(var(--rebirth-grey-100));
 }
