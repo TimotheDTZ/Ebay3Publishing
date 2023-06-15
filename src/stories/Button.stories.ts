@@ -44,3 +44,10 @@ export const Small: Story = {
     label: 'Button',
   },
 };
+
+export const Strong: Story = {
+  args: {
+    size: 'small',
+    label: 'Button',
+  },
+};
