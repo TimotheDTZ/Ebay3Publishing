@@ -1,6 +1,6 @@
 import React from 'react';
 import './button.css';
-import '/src/Token/ebay1/neutral-surface.css'
+import '/src/Token/ebay1/colors.css'
 
 interface ButtonProps {
   /**

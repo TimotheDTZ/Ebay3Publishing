@@ -1,4 +1,9 @@
 :root {
+    /* Brand Core Colors */
+    --rebirth-brand-primary: 38, 88, 70;
+    --rebirth-brand-secondary: 243, 206, 115;
+
+    /* Primary Core Colors */
     --rebirth-primary-10: 12, 28, 21;
     --rebirth-primary-20: 15, 35, 28;
     --rebirth-primary-30: 23, 53, 42;
@@ -9,6 +14,7 @@
     --rebirth-primary-80: 163, 186, 178;
     --rebirth-primary-90: 226, 235, 232;
 
+    /* Secondary Core Colors */
     --rebirth-secondary-10: 181, 139, 34;
     --rebirth-secondary-20: 196, 156, 54;
     --rebirth-secondary-30: 212, 172, 75;
@@ -19,6 +25,7 @@
     --rebirth-secondary-80: 250, 235, 199;
     --rebirth-secondary-90: 253, 245, 227;
 
+    /* Neutral Core Colors */
     --rebirth-grey-0: 0, 0, 0;
     --rebirth-grey-10: 34, 41, 58;
     --rebirth-grey-20: 53, 60, 80;
