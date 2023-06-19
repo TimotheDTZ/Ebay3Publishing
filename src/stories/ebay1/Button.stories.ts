@@ -21,6 +21,7 @@ type Story = StoryObj<typeof Button>;
 export const Primary: Story = {
   args: {
     color: 'primary',
+    size: 'xl',
     label: 'Button',
   },
 };
@@ -28,12 +29,14 @@ export const Primary: Story = {
 export const Secondary: Story = {
   args: {
     color: 'grey',
+    size: 'xl',
     label: 'Button',
   },
 };
 
 export const Xl: Story = {
   args: {
+    color: 'primary',
     size: 'xl',
     label: 'Button',
   },
@@ -41,6 +44,7 @@ export const Xl: Story = {
 
 export const Lg: Story = {
   args: {
+    color: 'primary',
     size: 'lg',
     label: 'Button',
   },
@@ -48,6 +52,7 @@ export const Lg: Story = {
 
 export const Md: Story = {
   args: {
+    color: 'primary',
     size: 'md',
     label: 'Button',
   },
@@ -55,6 +60,7 @@ export const Md: Story = {
 
 export const Sm: Story = {
   args: {
+    color: 'primary',
     size: 'sm',
     label: 'Button',
   },

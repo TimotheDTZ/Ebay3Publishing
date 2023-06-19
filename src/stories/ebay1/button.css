@@ -1,36 +1,39 @@
 @import url(../../Token/ebay1/colors.css);
+@import url(../../Token/ebay1/typescale.css);
 
 .storybook-button {
-  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 700;
-  border: 0;
-  border-radius: 2px;
   cursor: pointer;
-  display: inline-block;
+  display: flex;
+  align-items: center;
   line-height: 1;
+  border-radius: 2px;
 }
 .storybook-button--primary {
   color: var(--rebirth-on-button-primary);
   background-color: var(--rebirth-button-primary);
+  border: none;
 }
 .storybook-button--grey {
   color: var(--rebirth-on-surface-weak);
   background-color: var(--rebirth-surface);
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
 }
 .storybook-button--xl {
-  font-size: 18px;
-  padding: 10px 16px;
+  font-size: var(--rebirth-font-size-16);
+  padding: 8px 24px;
+  height: 56px;
 }
 .storybook-button--lg {
-  font-size: 16px;
-  padding: 11px 20px;
+  font-size: var(--rebirth-font-size-16);
+  padding: 8px 24px;
+  height: 48px;
 }
 .storybook-button--md {
-  font-size: 14px;
-  padding: 12px 24px;
+  font-size: var(--rebirth-font-size-14);
+  padding: 14px 24px;
+  height: 40px;
 }
 .storybook-button--sm {
-  font-size: 12px;
-  padding: 12px 24px;
+  font-size: var(--rebirth-font-size-14);
+  padding: 14px 24px;
+  height: 32px;
 }
