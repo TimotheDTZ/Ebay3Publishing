@@ -38,12 +38,15 @@ interface ButtonProps {
 export const Button = ({
   color = 'grey',
   size = 'md',
+  outline = false,
+  ghost = false,
   backgroundColor,
   label,
   ...props
 }: ButtonProps) => {
   const mode = (color === 'primary') ? 'storybook-button--primary' : 'storybook-button--grey';
-  const outlineGhost;
+  outline = (ghost) ? false : true;
+  ghost = (outline) ? false : true;
   return (
     <button
       type="button"
