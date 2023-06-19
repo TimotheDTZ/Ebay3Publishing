@@ -1,0 +1,25 @@
+:root {
+    /* Typogrephy Size Tokens */
+    --rebirth-font-size-10: 10px;
+    --rebirth-font-size-12: 12px;
+    --rebirth-font-size-14: 14px;
+    --rebirth-font-size-16: 16px;
+    --rebirth-font-size-18: 18px;
+    --rebirth-font-size-21: 21px;
+    --rebirth-font-size-24: 24px;
+    --rebirth-font-size-28: 28px;
+    --rebirth-font-size-32: 32px;
+    --rebirth-font-size-37: 37px;
+    --rebirth-font-size-43: 43px;
+    --rebirth-font-size-49: 49px;
+    --rebirth-font-size-57: 57px;
+    --rebirth-font-size-65: 65px;
+    --rebirth-font-size-75: 75px;
+
+    /* Overline Tokens */
+    --rebirth-overline:
+}
+
+.test {
+    text-decoration: 12px ;
+}

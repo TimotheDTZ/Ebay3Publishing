@@ -4,15 +4,15 @@
     /* Neutral Surface Tokens */
     --rebirth-surface: rgb(var(--rebirth-grey-100));
     --rebirth-surface-inverse: rgb(var(--rebirth-grey-90));
-    --rebirth-surface-disabled: rgb(var(--rebirth-grey-50));
-    --rebirth-on-surface: rgba(var(--rebirth-grey-50),0.25);
+    --rebirth-surface-disabled: rgba(var(--rebirth-grey-50), 0.25);
+    --rebirth-on-surface: rgb(var(--rebirth-grey-10));
     --rebirth-on-surface-weak: rgba(var(--rebirth-grey-10), 0.64);
     --rebirth-on-surface-extra-weak: rgba(var(--rebirth-grey-10), 0.52);
     --rebirth-on-surface-disabled: rgba(var(--rebirth-grey-10), 0.32);
 
     /* Brand Surface Tokens */
     --rebirth-primary: rgb(var(--rebirth-primary-50));
-    --rebirth-primary-variant: rgb(var(--rebirth-primary-70));
+    --rebirth-primary-variant: rgb(var(--rebirth-primary-40));
     --rebirth-on-primary: rgb(var(--rebirth-grey-100));
     --rebirth-secondary: rgb(var(--rebirth-secondary-50));
     --rebirth-secondary-variant: rgb(var(--rebirth-secondary-20));
@@ -43,7 +43,7 @@
     /**** Buttons Tokens ****/
     /* Primary Button */
     --rebirth-button-primary: rgb(var(--rebirth-primary-50));
-    --rebirth-button-primary-variant: rgb(var(--rebirth-primary-70));
+    --rebirth-button-primary-variant: rgb(var(--rebirth-primary-40));
     --rebirth-on-button-primary: rgb(var(--rebirth-grey-100));
 
     /* Secondary Button */
@@ -65,9 +65,9 @@
 
     /* Form Tokens */
     --rebirth-input-surface: rgb(var(--rebirth-primary-50));
-    --rebirth-input-surface-variant: rgb(var(--rebirth-primary-70));
+    --rebirth-input-surface-variant: rgb(var(--rebirth-primary-40));
     --rebirth-input-outline: rgba(var(--rebirth-grey-30), 0.52);
-    --rebirth-input-outline-variant: rgb(var(--rebirth-primary-30));
+    --rebirth-input-outline-variant: rgb(var(--rebirth-primary-60));
 
     /* Decorative Tokens */
     --rebirth-decorative-surface: rgb(var(--rebirth-secondary-50));
