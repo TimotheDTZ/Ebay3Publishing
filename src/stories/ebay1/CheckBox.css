@@ -1,0 +1,36 @@
+.checkbox {
+    /* Default styles */
+}
+
+.checkbox--hover {
+    /* Styles for hover state */
+}
+
+.checkbox--focus {
+    /* Styles for focus state */
+}
+
+.checkbox--disabled {
+    /* Styles for disabled state */
+}
+
+.checkbox--error {
+    /* Styles for error state */
+}
+
+.checkbox-container {
+    /* Styles for checkbox container */
+}
+
+.checkbox-label {
+    /* Styles for label */
+}
+
+.checkbox-helper {
+    /* Styles for helper text */
+}
+
+/* Styles for checkbox checkmark */
+.checkbox-checkmark {
+    /* Add your styles for the checkmark here */
+}
