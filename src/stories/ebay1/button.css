@@ -1,0 +1,36 @@
+@import url(../../Token/ebay1/colors.css);
+
+.storybook-button {
+  font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  border: 0;
+  border-radius: 2px;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+}
+.storybook-button--primary {
+  color: var(--rebirth-on-button-primary);
+  background-color: var(--rebirth-button-primary);
+}
+.storybook-button--grey {
+  color: var(--rebirth-on-surface-weak);
+  background-color: var(--rebirth-surface);
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+}
+.storybook-button--xl {
+  font-size: 18px;
+  padding: 10px 16px;
+}
+.storybook-button--lg {
+  font-size: 16px;
+  padding: 11px 20px;
+}
+.storybook-button--md {
+  font-size: 14px;
+  padding: 12px 24px;
+}
+.storybook-button--sm {
+  font-size: 12px;
+  padding: 12px 24px;
+}
