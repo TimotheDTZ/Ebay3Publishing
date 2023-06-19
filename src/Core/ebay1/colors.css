@@ -1,18 +1,18 @@
 :root {
     /* Brand Core Colors */
-    --rebirth-brand-primary: 38, 88, 70;
+    --rebirth-brand-primary: 38, 63, 89;
     --rebirth-brand-secondary: 243, 206, 115;
 
     /* Primary Core Colors */
-    --rebirth-primary-10: 12, 28, 21;
-    --rebirth-primary-20: 15, 35, 28;
-    --rebirth-primary-30: 23, 53, 42;
-    --rebirth-primary-40: 30, 70, 56;
-    --rebirth-primary-50: 38, 88, 70;
-    --rebirth-primary-60: 80, 121, 106;
-    --rebirth-primary-70: 122, 153, 142;
-    --rebirth-primary-80: 163, 186, 178;
-    --rebirth-primary-90: 226, 235, 232;
+    --rebirth-primary-10: 3, 8, 14;
+    --rebirth-primary-20: 9, 17, 27;
+    --rebirth-primary-30: 15, 25, 36;
+    --rebirth-primary-40: 23, 38, 53;
+    --rebirth-primary-50: 38, 63, 89;
+    --rebirth-primary-60: 69, 93, 117;
+    --rebirth-primary-70: 132, 152, 173;
+    --rebirth-primary-80: 163, 181, 201;
+    --rebirth-primary-90: 194, 211, 229;
 
     /* Secondary Core Colors */
     --rebirth-secondary-10: 181, 139, 34;

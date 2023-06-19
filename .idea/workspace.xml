@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="90f440ef-8735-4fd9-9b71-cd796f37e0ed" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Core/colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Core/colors.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Core/ebay1/colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Core/ebay1/colors.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Token/ebay1/neutral-surface.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Token/ebay1/colors.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/Button.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,13 +39,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/ecv/compet/ebay3/src/Token",
+    "last_opened_file_path": "D:/ecv/compet/ebay3",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "terminal",
-    "ts.external.directory.path": "D:\\ecv\\compet\\ebay3\\node_modules\\typescript\\lib",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\PhpStorm 2022.2.2\\plugins\\JavaScriptLanguage\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -74,7 +70,10 @@
       <updated>1686662358924</updated>
       <workItem from="1686662360279" duration="2192000" />
       <workItem from="1686664943384" duration="319000" />
-      <workItem from="1686815478643" duration="3993000" />
+      <workItem from="1686815478643" duration="4966000" />
+      <workItem from="1686841347683" duration="1765000" />
+      <workItem from="1686853147986" duration="17000" />
+      <workItem from="1687160598775" duration="629000" />
     </task>
     <servers />
   </component>
