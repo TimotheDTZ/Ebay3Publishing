@@ -4,7 +4,7 @@ import { Button } from './Button';
 
 // More on how to set up stories at: https://storybook.js.org/docs/react/writing-stories/introduction
 const meta: Meta<typeof Button> = {
-  title: 'Ebay/Buttons/Primary',
+  title: 'Ebay1/Buttons/Button-rebirth',
   component: Button,
   tags: ['autodocs'],
   argTypes: {
@@ -20,34 +20,42 @@ type Story = StoryObj<typeof Button>;
 // More on writing stories with args: https://storybook.js.org/docs/react/writing-stories/args
 export const Primary: Story = {
   args: {
-    primary: true,
+    color: 'primary',
     label: 'Button',
   },
 };
 
 export const Secondary: Story = {
   args: {
+    color: 'grey',
     label: 'Button',
   },
 };
 
-export const Large: Story = {
+export const Xl: Story = {
   args: {
-    size: 'large',
+    size: 'xl',
     label: 'Button',
   },
 };
 
-export const Small: Story = {
+export const Lg: Story = {
   args: {
-    size: 'small',
+    size: 'lg',
     label: 'Button',
   },
 };
 
-export const Strong: Story = {
+export const Md: Story = {
   args: {
-    size: 'small',
+    size: 'md',
+    label: 'Button',
+  },
+};
+
+export const Sm: Story = {
+  args: {
+    size: 'sm',
     label: 'Button',
   },
 };

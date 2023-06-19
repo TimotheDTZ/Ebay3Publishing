@@ -1,12 +1,11 @@
 import React from 'react';
 import './button.css';
-import '/src/Token/ebay1/colors.css'
 
 interface ButtonProps {
   /**
    * Is this the principal call to action on the page?
    */
-  primary?: boolean;
+  color?: 'primary' | 'grey';
   /**
    * What background color to use
    */
@@ -14,7 +13,7 @@ interface ButtonProps {
   /**
    * How large should the button be?
    */
-  size?: 'small' | 'medium' | 'large';
+  size?: 'sm' | 'md' | 'lg' | 'xl';
   /**
    * Button contents
    */
@@ -29,13 +28,13 @@ interface ButtonProps {
  * Primary UI component for user interaction
  */
 export const Button = ({
-  primary = false,
-  size = 'medium',
+  color = 'grey',
+  size = 'md',
   backgroundColor,
   label,
   ...props
 }: ButtonProps) => {
-  const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
+  const mode = (color === 'primary') ? 'storybook-button--primary' : 'storybook-button--grey';
   return (
     <button
       type="button"
@@ -45,7 +44,7 @@ export const Button = ({
       {label}
       <style jsx>{`
         button {
-          background-color: var(--rebirth-on-surface);
+          background-color: ${backgroundColor};
         }
       `}</style>
     </button>

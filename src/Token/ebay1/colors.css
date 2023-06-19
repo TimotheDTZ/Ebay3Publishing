@@ -1,0 +1,85 @@
+@import url(../../Core/ebay1/colors.css);
+
+:root {
+    /* Neutral Surface Tokens */
+    --rebirth-surface: rgb(var(--rebirth-grey-100));
+    --rebirth-surface-inverse: rgb(var(--rebirth-grey-90));
+    --rebirth-surface-disabled: rgba(var(--rebirth-grey-50), 0.25);
+    --rebirth-on-surface: rgb(var(--rebirth-grey-10));
+    --rebirth-on-surface-weak: rgba(var(--rebirth-grey-10), 0.64);
+    --rebirth-on-surface-extra-weak: rgba(var(--rebirth-grey-10), 0.52);
+    --rebirth-on-surface-disabled: rgba(var(--rebirth-grey-10), 0.32);
+
+    /* Brand Surface Tokens */
+    --rebirth-primary: rgb(var(--rebirth-primary-50));
+    --rebirth-primary-variant: rgb(var(--rebirth-primary-40));
+    --rebirth-on-primary: rgb(var(--rebirth-grey-100));
+    --rebirth-secondary: rgb(var(--rebirth-secondary-50));
+    --rebirth-secondary-variant: rgb(var(--rebirth-secondary-20));
+    --rebirth-on-secondary: rgb(var(--rebirth-grey-10));
+
+    /* Outline Tokens */
+    --rebirth-outline: rgba(var(--rebirth-grey-30), 0.52);
+    --rebirth-outline-weak: rgba(var(--rebirth-grey-30), 0.28);
+    --rebirth-outline-variant: rgb(var(--rebirth-primary-60));
+
+    /* Artwork Tokens */
+    --rebirth-icon: rgb(var(--rebirth-grey-10));
+    --rebirth-icon-variant: rgb(var(--rebirth-secondary-50));
+    --rebirth-icon-inverse: rgb(var(--rebirth-grey-100));
+    --rebirth-icon-inverse-variant: rgb(var(--rebirth-primary-50));
+
+    /* Overlay Tokens */
+    --rebirth-overlay: rgba(var(--rebirth-grey-0), 0.64);
+    --rebirth-overlay-inverse: rgba(var(--rebirth-grey-100), 0.64);
+    --rebirth-on-overlay: rgb(var(--rebirth-grey-100));
+    --rebirth-on-overlay-inverse: rgb(var(--rebirth-grey-10));
+
+    /* Link Tokens */
+    --rebirth-link-primary: rgb(var(--rebirth-primary-50));
+    --rebirth-link-secondary: rgb(var(--rebirth-grey-10));
+    --rebirth-link-inverse: rgb(var(--rebirth-grey-100));
+
+    /**** Buttons Tokens ****/
+    /* Primary Button */
+    --rebirth-button-primary: rgb(var(--rebirth-primary-50));
+    --rebirth-button-primary-variant: rgb(var(--rebirth-primary-40));
+    --rebirth-on-button-primary: rgb(var(--rebirth-grey-100));
+
+    /* Secondary Button */
+    --rebirth-button-secondary: rgb(var(--rebirth-secondary-50));
+    --rebirth-button-secondary-variant: rgb(var(--rebirth-secondary-20));
+    --rebirth-on-button-secondary: rgb(var(--rebirth-grey-10));
+
+    /* Tertiary Button */
+    --rebirth-button-tertiary: rgba(var(--rebirth-primary-90), 0);
+    --rebirth-button-tertiary-variant: rgb(var(--rebirth-primary-90));
+    --rebirth-button-tertiary-outline: rgb(var(--rebirth-primary-50));
+    --rebirth-on-button-tertiary: rgb(var(--rebirth-primary-50));
+
+    /* Ghost Button */
+    --rebirth-button-ghost: rgba(var(--rebirth-primary-90), 0);
+    --rebirth-button-ghost-variant: rgb(var(--rebirth-primary-90));
+    --rebirth-on-button-ghost: rgb(var(--rebirth-primary-50));
+    /************************/
+
+    /* Form Tokens */
+    --rebirth-input-surface: rgb(var(--rebirth-primary-50));
+    --rebirth-input-surface-variant: rgb(var(--rebirth-primary-40));
+    --rebirth-input-outline: rgba(var(--rebirth-grey-30), 0.52);
+    --rebirth-input-outline-variant: rgb(var(--rebirth-primary-60));
+
+    /* Decorative Tokens */
+    --rebirth-decorative-surface: rgb(var(--rebirth-secondary-50));
+    --rebirth-decorative-surface-variant: rgb(var(--rebirth-primary-50));
+
+    /* Tag Tokens */
+    --rebirth-tag-default: rgb(var());
+    --rebirth-tag-ecology: rgb(var());
+    --rebirth-tag-exclusivity: rgb(var());
+    --rebirth-tag-offer: rgb(var());
+    --rebirth-tag-black-friday: rgb(var());
+
+    /* Rating Level Tokens */
+    --rebirth-rating: rgb(var());
+}
