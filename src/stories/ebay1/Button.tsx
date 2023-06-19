@@ -11,14 +11,6 @@ interface ButtonProps {
    */
   color?: 'primary' | 'grey';
   /**
-   * Is there outline?
-   */
-  outline?: boolean;
-  /**
-   * Ghost button?
-   */
-  ghost?: boolean;
-  /**
    * What background color to use
    */
   backgroundColor?: string;
@@ -30,6 +22,18 @@ interface ButtonProps {
    * Optional click handler
    */
   onClick?: () => void;
+  /**
+   * Button variant
+   */
+  variant?: 'Ghost' | 'Outline' | 'None';
+  /**
+   * Button state
+   */
+  state?: 'Default' | 'Disabled' | 'Focused' | 'Hovered' | 'Skeleton';
+  /**
+   * Icon position
+   */
+  icon?: 'None' | 'Left' | 'Right' | 'Icon Only';
 }
 
 /**
@@ -38,22 +42,28 @@ interface ButtonProps {
 export const Button = ({
   color = 'grey',
   size = 'md',
-  outline = false,
-  ghost = false,
   backgroundColor,
   label,
+  variant,
+  state,
+  icon,
   ...props
 }: ButtonProps) => {
-  const mode = (color === 'primary') ? 'storybook-button--primary' : 'storybook-button--grey';
-  outline = (ghost) ? false : true;
-  ghost = (outline) ? false : true;
+  const mode = color === 'primary' ? 'storybook-button--primary' : 'storybook-button--grey';
+  const variantClass = variant ? `storybook-button--${variant.toLowerCase()}` : '';
+  const stateClass = state ? `storybook-button--${state.toLowerCase()}` : '';
+  const iconClass = icon ? `storybook-button--icon-${icon.toLowerCase().replace(' ', '-')}` : '';
+
   return (
     <button
       type="button"
-      className={['storybook-button', `storybook-button--${size}`, mode].join(' ')}
+      className={['storybook-button', `storybook-button--${size}`, mode, variantClass, stateClass, iconClass].join(' ')}
       {...props}
     >
-      <div>{label}</div>
+      {icon === 'Left' && <span><img src="test" className="icon-left" />{label}</span>}
+      {icon === 'Icon Only' && <img src="test" />}
+      {icon === 'None' && <span>{label}</span>}
+      {icon === 'Right' && <span>{label}<img src="test" className="icon-left" /></span>}
       <style jsx>{`
         button {
           background-color: ${backgroundColor};
@@ -62,3 +72,5 @@ export const Button = ({
     </button>
   );
 };
+
+export default Button;

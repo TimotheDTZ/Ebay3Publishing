@@ -11,6 +11,24 @@ const meta: Meta<typeof Button> = {
     backgroundColor: {
       control: 'color',
     },
+    variant: {
+      control: {
+        type: 'select',
+        options: ['Ghost', 'Outline', 'None'],
+      },
+    },
+    state: {
+      control: {
+        type: 'select',
+        options: ['Default', 'Disabled', 'Focused', 'Hovered', 'Skeleton'],
+      },
+    },
+    icon: {
+      control: {
+        type: 'select',
+        options: ['None', 'Left', 'Right', 'Icon Only'],
+      },
+    },
   },
 };
 
@@ -22,9 +40,10 @@ export const Primary: Story = {
   args: {
     color: 'primary',
     size: 'xl',
-    outline: false,
-    ghost: false,
+    variant: 'None',
+    state: 'Default',
     label: 'Button',
+    icon: 'None',
   },
 };
 
@@ -32,9 +51,10 @@ export const Secondary: Story = {
   args: {
     color: 'grey',
     size: 'xl',
-    outline: false,
-    ghost: false,
+    variant: 'None',
+    state: 'Default',
     label: 'Button',
+    icon: 'None',
   },
 };
 
@@ -42,9 +62,10 @@ export const Xl: Story = {
   args: {
     color: 'primary',
     size: 'xl',
-    outline: false,
-    ghost: false,
+    variant: 'None',
+    state: 'Default',
     label: 'Button',
+    icon: 'None',
   },
 };
 
@@ -52,9 +73,10 @@ export const Lg: Story = {
   args: {
     color: 'primary',
     size: 'lg',
-    outline: false,
-    ghost: false,
+    variant: 'None',
+    state: 'Default',
     label: 'Button',
+    icon: 'None',
   },
 };
 
@@ -62,9 +84,10 @@ export const Md: Story = {
   args: {
     color: 'primary',
     size: 'md',
-    outline: false,
-    ghost: false,
+    variant: 'None',
+    state: 'Default',
     label: 'Button',
+    icon: 'None',
   },
 };
 
@@ -72,8 +95,9 @@ export const Sm: Story = {
   args: {
     color: 'primary',
     size: 'sm',
-    outline: false,
-    ghost: false,
+    variant: 'None',
+    state: 'Default',
     label: 'Button',
+    icon: 'None',
   },
 };
