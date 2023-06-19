@@ -1,0 +1,17 @@
+.checkbox-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkbox-group.stacked .checkbox-label {
+    margin-bottom: 8px;
+}
+
+.checkbox-group.inline {
+    flex-direction: row;
+    align-items: center;
+}
+
+.checkbox-group.inline .checkbox-label {
+    margin-right: 16px;
+}
