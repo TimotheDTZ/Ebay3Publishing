@@ -3,17 +3,25 @@ import './button.css';
 
 interface ButtonProps {
   /**
+   * How large should the button be?
+   */
+  size?: 'sm' | 'md' | 'lg' | 'xl';
+  /**
    * Is this the principal call to action on the page?
    */
   color?: 'primary' | 'grey';
   /**
+   * Is there outline?
+   */
+  outline?: boolean;
+  /**
+   * Ghost button?
+   */
+  ghost?: boolean;
+  /**
    * What background color to use
    */
   backgroundColor?: string;
-  /**
-   * How large should the button be?
-   */
-  size?: 'sm' | 'md' | 'lg' | 'xl';
   /**
    * Button contents
    */
@@ -35,6 +43,7 @@ export const Button = ({
   ...props
 }: ButtonProps) => {
   const mode = (color === 'primary') ? 'storybook-button--primary' : 'storybook-button--grey';
+  const outlineGhost;
   return (
     <button
       type="button"

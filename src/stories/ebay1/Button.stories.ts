@@ -22,6 +22,8 @@ export const Primary: Story = {
   args: {
     color: 'primary',
     size: 'xl',
+    outline: false,
+    ghost: false,
     label: 'Button',
   },
 };
@@ -30,6 +32,8 @@ export const Secondary: Story = {
   args: {
     color: 'grey',
     size: 'xl',
+    outline: false,
+    ghost: false,
     label: 'Button',
   },
 };
@@ -38,6 +42,8 @@ export const Xl: Story = {
   args: {
     color: 'primary',
     size: 'xl',
+    outline: false,
+    ghost: false,
     label: 'Button',
   },
 };
@@ -46,6 +52,8 @@ export const Lg: Story = {
   args: {
     color: 'primary',
     size: 'lg',
+    outline: false,
+    ghost: false,
     label: 'Button',
   },
 };
@@ -54,6 +62,8 @@ export const Md: Story = {
   args: {
     color: 'primary',
     size: 'md',
+    outline: false,
+    ghost: false,
     label: 'Button',
   },
 };
@@ -62,6 +72,8 @@ export const Sm: Story = {
   args: {
     color: 'primary',
     size: 'sm',
+    outline: false,
+    ghost: false,
     label: 'Button',
   },
 };
