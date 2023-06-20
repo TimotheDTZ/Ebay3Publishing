@@ -53,7 +53,7 @@
 
     /* Tertiary Button */
     --rebirth-button-tertiary: rgba(var(--rebirth-primary-90), 0);
-    --rebirth-button-tertiary-variant: rgb(var(--rebirth-primary-90));
+    --rebirth-button-tertiary-variant: rgb(var(--rebirth-grey-90));
     --rebirth-button-tertiary-outline: rgb(var(--rebirth-primary-50));
     --rebirth-on-button-tertiary: rgb(var(--rebirth-primary-50));
 

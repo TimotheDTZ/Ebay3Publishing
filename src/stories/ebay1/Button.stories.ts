@@ -8,9 +8,6 @@ const meta: Meta<typeof Button> = {
   component: Button,
   tags: ['autodocs'],
   argTypes: {
-    backgroundColor: {
-      control: 'color',
-    },
     variant: {
       control: {
         type: 'select',
@@ -26,7 +23,7 @@ const meta: Meta<typeof Button> = {
     icon: {
       control: {
         type: 'select',
-        options: ['None', 'Left', 'Right', 'Icon Only'],
+        options: ['None', 'Left', 'Right', 'Only'],
       },
     },
   },

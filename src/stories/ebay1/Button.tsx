@@ -1,5 +1,7 @@
 import React from 'react';
 import './button.css';
+import iconLeft from '/src/stories/assets/image.png';
+import Image from "next/image";
 
 interface ButtonProps {
   /**
@@ -10,10 +12,6 @@ interface ButtonProps {
    * Is this the principal call to action on the page?
    */
   color?: 'primary' | 'grey';
-  /**
-   * What background color to use
-   */
-  backgroundColor?: string;
   /**
    * Button contents
    */
@@ -33,7 +31,7 @@ interface ButtonProps {
   /**
    * Icon position
    */
-  icon?: 'None' | 'Left' | 'Right' | 'Icon Only';
+  icon?: 'None' | 'Left' | 'Right' | 'Only';
 }
 
 /**
@@ -42,7 +40,6 @@ interface ButtonProps {
 export const Button = ({
   color = 'grey',
   size = 'md',
-  backgroundColor,
   label,
   variant,
   state,
@@ -60,15 +57,11 @@ export const Button = ({
       className={['storybook-button', `storybook-button--${size}`, mode, variantClass, stateClass, iconClass].join(' ')}
       {...props}
     >
-      {icon === 'Left' && <span><img src="test" className="icon-left" />{label}</span>}
-      {icon === 'Icon Only' && <img src="test" />}
-      {icon === 'None' && <span>{label}</span>}
-      {icon === 'Right' && <span>{label}<img src="test" className="icon-left" /></span>}
-      <style jsx>{`
-        button {
-          background-color: ${backgroundColor};
-        }
-      `}</style>
+      {(icon === 'Left' && state !== 'Skeleton') && <span><img src="test" className="icon-left" />{label}</span>}
+      {icon === 'Only' && <Image src={iconLeft} alt={''} className={'icon-left'}/>}
+      {(icon === 'None' && state !== 'Skeleton') && <span>{label}</span>}
+      {(icon === 'Right' && state !== 'Skeleton') && <span>{label}<img src="src/stories/assets/image.png" className="icon-left" /></span>}
+      {state === 'Skeleton' && <span></span>}
     </button>
   );
 };
