@@ -1,0 +1,60 @@
+/* AlertRebirth.css */
+
+.alert-button {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+}
+
+.label {
+    font-size: 14px;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.blue {
+    color: blue;
+}
+
+.orange {
+    color: orange;
+}
+
+.danger {
+    /* Styles spécifiques pour le style 'danger' */
+    color: red;
+}
+
+.success {
+    /* Styles spécifiques pour le style 'success' */
+    color: green;
+}
+
+.information {
+    /* Styles spécifiques pour le style 'information' */
+    color: blue;
+}
+
+.warning {
+    /* Styles spécifiques pour le style 'warning' */
+    color: orange;
+}
+
+.trick {
+    /* Styles spécifiques pour le style 'trick' */
+    color: orange;
+}
