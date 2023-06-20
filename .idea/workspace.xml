@@ -3,10 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="90f440ef-8735-4fd9-9b71-cd796f37e0ed" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Token/ebay1/colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Token/ebay1/colors.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/ebay1/Button.stories.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/ebay1/Button.stories.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/ebay1/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/ebay1/Button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/stories/ebay1/button.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/ebay1/button.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/ebay1/AlertRebirth.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/ebay1/AlertRebirth.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/ebay1/AlertRebirth.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/stories/ebay1/AlertRebirth.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +43,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/ecv/compet/ebay3",
+    "last_opened_file_path": "D:/ecv/compet/ebay3/src/stories/assets",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -55,6 +55,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ecv\compet\ebay3\src\stories\assets" />
       <recent name="D:\ecv\compet\ebay3\src\Token" />
       <recent name="D:\ecv\compet\ebay3\src\stories\example" />
     </key>
@@ -81,7 +82,7 @@
       <workItem from="1687165489259" duration="639000" />
       <workItem from="1687166701335" duration="3128000" />
       <workItem from="1687189185504" duration="492000" />
-      <workItem from="1687254741598" duration="2873000" />
+      <workItem from="1687254741598" duration="7822000" />
     </task>
     <servers />
   </component>
