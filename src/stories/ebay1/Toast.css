@@ -1,0 +1,24 @@
+.toast {
+    padding: 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.toast-danger {
+    background-color: #ff4d4f;
+}
+
+.toast-warning {
+    background-color: #faad14;
+}
+
+.toast-success {
+    background-color: #52c41a;
+}
+
+.toast-information {
+    background-color: #1890ff;
+}
