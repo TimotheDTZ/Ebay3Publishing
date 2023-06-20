@@ -1,0 +1,24 @@
+/* RadioGroup.css */
+.radio-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.Inline {
+    display: flex;
+    flex-direction: row !important;
+}
+
+.Stacked {
+    display: flex;
+    flex-direction: column !important;
+}
+
+.radio-group label {
+    margin-bottom: 5px;
+}
+
+.radio-group.title {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
