@@ -1,0 +1,12 @@
+.RangePointer {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid black;
+    transition: background-color 0.3s ease;
+}
+
+.RangePointer.focus {
+    background-color: black;
+}
