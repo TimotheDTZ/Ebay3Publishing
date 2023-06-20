@@ -1,0 +1,38 @@
+.radioButtonRebirth {
+    display: flex;
+    align-items: center;
+}
+
+.radioButtonRebirth input[type="radio"] {
+    margin-right: 8px;
+}
+
+.radioButtonRebirth .label {
+    margin-right: 16px;
+}
+
+.radioButtonRebirth .helperText {
+    margin-top: 4px;
+    color: #999;
+    font-size: 12px;
+}
+
+.radioButtonRebirth .stateDefault {
+    /* Styles pour l'état par défaut */
+}
+
+.radioButtonRebirth .stateHover {
+    /* Styles pour l'état survolé */
+}
+
+.radioButtonRebirth .stateFocus {
+    /* Styles pour l'état focus */
+}
+
+.radioButtonRebirth .stateDisabled {
+    /* Styles pour l'état désactivé */
+}
+
+.radioButtonRebirth .stateError {
+    /* Styles pour l'état d'erreur */
+}
