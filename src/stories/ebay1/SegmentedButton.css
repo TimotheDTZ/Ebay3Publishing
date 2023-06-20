@@ -1,0 +1,17 @@
+.segmented-button {
+    display: flex;
+}
+
+.segmented-button__segment {
+    flex: 1;
+}
+
+.segmented-button__segment--medium {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.segmented-button__segment--small {
+    padding: 5px 10px;
+    font-size: 12px;
+}
