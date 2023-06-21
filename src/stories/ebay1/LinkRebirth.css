@@ -1,0 +1,35 @@
+.link-rebirth {
+    /* Styles par défaut */
+}
+
+.link-rebirth.primary {
+    /* Styles pour la couleur primaire */
+}
+
+.link-rebirth.white {
+    /* Styles pour la couleur blanche */
+}
+
+.link-rebirth.md {
+    /* Styles pour la taille moyenne */
+}
+
+.link-rebirth.sm {
+    /* Styles pour la petite taille */
+}
+
+.link-rebirth.focus {
+    /* Styles pour l'état de focus */
+}
+
+.link-rebirth.hover {
+    /* Styles pour l'état de survol */
+}
+
+.link-rebirth .icon-left {
+    /* Styles pour l'icône à gauche */
+}
+
+.link-rebirth .icon-right {
+    /* Styles pour l'icône à droite */
+}
