@@ -35,3 +35,13 @@
 .dropdown--md .dropdown__icon {
     font-size: 16px;
 }
+
+.dropdown__options--left {}
+
+.dropdown__options--top-right {}
+
+.dropdown__options--top-left {}
+
+.dropdown__options--bottom-right {}
+
+.dropdown__options--bottom-left {}
