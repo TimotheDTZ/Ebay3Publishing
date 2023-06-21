@@ -25,7 +25,6 @@ export const Input = ({
 
     return (
         <div>
-            {/* <label>{label}</label> */}
             <input className={inputClass} type="text" value={withValue ? value : ''} />
             {helper && <div>{helperText}</div>}
             {icon === 'left' && <div>Icon à gauche de l input</div>}
