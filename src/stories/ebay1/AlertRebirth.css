@@ -1,16 +1,18 @@
 /* AlertRebirth.css */
+@import url(../../Token/alert.css);
 
 .alert-button {
     display: flex;
     align-items: center;
-    background-color: transparent;
-    border: none;
     cursor: pointer;
+    width: 220px;
+    height: 52px;
+    border-radius: 2px;
 }
 
 .icon {
-    width: 16px;
-    height: 16px;
+    width: 32px;
+    height: 32px;
     margin-right: 8px;
 }
 
@@ -19,42 +21,63 @@
 }
 
 .red {
-    color: red;
+    color: var(--rebirth-on-danger-surface);
 }
 
 .green {
-    color: green;
+    color: var(--rebirth-on-success-surface);
 }
 
 .blue {
-    color: blue;
+    color: var(--rebirth-on-info-surface);
 }
 
 .orange {
-    color: orange;
+    color: var(--rebirth-on-warning-surface);
 }
 
 .danger {
     /* Styles spécifiques pour le style 'danger' */
-    color: red;
+    background-color: var(--rebirth-danger-surface);
+    border: 1px solid var(--rebirth-danger-outline);
+}
+.danger .icon {
+    filter: invert(28%) sepia(95%) saturate(1253%) hue-rotate(339deg) brightness(79%) contrast(91%);
 }
 
 .success {
     /* Styles spécifiques pour le style 'success' */
-    color: green;
+    background-color: var(--rebirth-success-surface);
+    border: 1px solid var(--rebirth-success-outline);
+}
+.success .icon {
+    filter: invert(42%) sepia(43%) saturate(499%) hue-rotate(72deg) brightness(97%) contrast(95%);
 }
 
 .information {
     /* Styles spécifiques pour le style 'information' */
-    color: blue;
+    background-color: var(--rebirth-info-surface);
+    border: 1px solid var(--rebirth-info-outline);
+}
+.information .icon {
+    filter: invert(46%) sepia(26%) saturate(1657%) hue-rotate(177deg) brightness(85%) contrast(93%);
 }
 
 .warning {
     /* Styles spécifiques pour le style 'warning' */
-    color: orange;
+    background-color: var(--rebirth-warning-surface);
+    border: 1px solid var(--rebirth-warning-outline);
+}
+.warning .icon {
+    filter: invert(71%) sepia(73%) saturate(1894%) hue-rotate(351deg) brightness(94%) contrast(95%);
 }
 
 .trick {
     /* Styles spécifiques pour le style 'trick' */
-    color: orange;
+    background-color: var(--rebirth-warning-surface);
+    border: 1px solid var(--rebirth-warning-outline);
+    height: 86px;
+}
+.trick .icon {
+    filter: invert(71%) sepia(73%) saturate(1894%) hue-rotate(351deg) brightness(94%) contrast(95%);
 }

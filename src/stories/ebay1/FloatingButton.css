@@ -1,0 +1,36 @@
+/* FloatingButton.css */
+.FloatingButton {
+    /* Styles par défaut du bouton flottant */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    background-color: #2196f3;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Styles en cas de survol */
+.FloatingButton:hover {
+    background-color: #1976d2;
+}
+
+/* Styles en cas de clic */
+.FloatingButton:active {
+    background-color: #0d47a1;
+}
+
+/* Styles en cas de focus */
+.FloatingButton:focus {
+    background-color: #1976d2;
+    outline: none;
+}
+
+/* Styles en cas de désactivation */
+.FloatingButton:disabled {
+    background-color: #bdbdbd;
+    cursor: not-allowed;
+}

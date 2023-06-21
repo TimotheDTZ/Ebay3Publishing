@@ -18,6 +18,7 @@ export const RadioButtonRebirth = ({
     return (
         <div className={`radioButtonRebirth state${state}`}>
             <input type="radio" checked={checked} />
+            <span className={'checkmark'}></span>
             <span className="label">{label}</span>
             {helper && <span className="helperText">Helper</span>}
         </div>

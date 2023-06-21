@@ -1,5 +1,5 @@
 import React from 'react';
-import './button.css';
+import './Button.css';
 import iconLeft from '/src/stories/assets/image.png';
 import Image from "next/image";
 
@@ -12,6 +12,10 @@ interface ButtonProps {
    * Is this the principal call to action on the page?
    */
   color?: 'primary' | 'grey';
+  /**
+   * What background color to use
+   */
+  backgroundColor?: string;
   /**
    * Button contents
    */

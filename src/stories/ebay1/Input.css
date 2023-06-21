@@ -1,0 +1,28 @@
+/* Input.css */
+.input {
+    /* Styles pour l'input par défaut */
+}
+
+.input.focus {
+    /* Styles lorsque l'input est en focus */
+}
+
+.input.hover {
+    /* Styles lorsque l'input est survolé */
+}
+
+.input.pressed {
+    /* Styles lorsque l'input est enfoncé */
+}
+
+.input.valid {
+    /* Styles lorsque l'input est valide */
+}
+
+.input.error {
+    /* Styles lorsque l'input est en erreur */
+}
+
+.input.disabled {
+    /* Styles lorsque l'input est désactivé */
+}
