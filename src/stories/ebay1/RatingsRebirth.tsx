@@ -1,5 +1,8 @@
 import React from 'react';
 import './RatingsRebirth.css';
+import fullStar from '/src/stories/assets/star-fill.png';
+import halfStar from '/src/stories/assets/star-fill-half.png';
+import Image from "next/image";
 
 interface RatingsRebirthProps {
     size?: 'Sm' | 'Md';
@@ -17,6 +20,7 @@ export const RatingsRebirth = ({
 }: RatingsRebirthProps) => {
     const filledStars = Math.floor(rate);
     const hasHalfStar = rate % 1 !== 0;
+    const rateClass = (rate.toString()).replace('.', '-');
 
     const getStarClassName = (index: number) => {
         if (index < filledStars) {
@@ -29,11 +33,28 @@ export const RatingsRebirth = ({
     };
 
     return (
-        <div className={`RatingsRebirth RatingsRebirth--size-${size}`}>
-            {Array.from({ length: 5 }).map((_, index) => (
-                <span key={index} className={getStarClassName(index)} />
-            ))}
-            {showLink && <a href="#" className="RatingsRebirth__link">Link</a>}
+        <div className={`RatingsRebirth RatingsRebirth--size-${size} RatingsRebirth--rating-${rateClass}`}>
+            <div className={'rating-star-container'}>
+                <Image src={fullStar} alt={''} className={'star star1'}/>
+                <Image src={halfStar} alt={''} className={'star star1-half'}/>
+            </div>
+            <div className={'rating-star-container'}>
+                <Image src={fullStar} alt={''} className={'star star2'}/>
+                <Image src={halfStar} alt={''} className={'star star2-half'}/>
+            </div>
+            <div className={'rating-star-container'}>
+                <Image src={fullStar} alt={''} className={'star star3'}/>
+                <Image src={halfStar} alt={''} className={'star star3-half'}/>
+            </div>
+            <div className={'rating-star-container'}>
+                <Image src={fullStar} alt={''} className={'star star4'}/>
+                <Image src={halfStar} alt={''} className={'star star4-half'}/>
+            </div>
+            <div className={'rating-star-container'}>
+                <Image src={fullStar} alt={''} className={'star star5'}/>
+                <Image src={halfStar} alt={''} className={'star star5-half'}/>
+            </div>
+            {showLink && <a href="#" className="RatingsRebirth__link">(11 ratings)</a>}
         </div>
     );
 };

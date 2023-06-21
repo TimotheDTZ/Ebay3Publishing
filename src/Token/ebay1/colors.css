@@ -81,5 +81,5 @@
     --rebirth-tag-black-friday: rgb(var());
 
     /* Rating Level Tokens */
-    --rebirth-rating: rgb(var());
+    --rebirth-rating: rgb(var(--rebirth-yellow-mikado-50));
 }
