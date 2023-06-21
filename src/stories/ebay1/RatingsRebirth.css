@@ -111,3 +111,12 @@
     opacity: unset;
     filter: invert(63%) sepia(99%) saturate(427%) hue-rotate(356deg) brightness(107%) contrast(100%);
 }
+
+.RatingsRebirth--size-sm .rating-star-container{
+    width: 16px;
+    height: 16px;
+}
+
+.RatingsRebirth--size-sm .RatingsRebirth__link {
+    font-size: 14px;
+}

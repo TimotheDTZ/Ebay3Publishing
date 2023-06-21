@@ -33,7 +33,7 @@ export const RatingsRebirth = ({
     };
 
     return (
-        <div className={`RatingsRebirth RatingsRebirth--size-${size} RatingsRebirth--rating-${rateClass}`}>
+        <div className={`RatingsRebirth RatingsRebirth--size-${size?.toLowerCase()} RatingsRebirth--rating-${rateClass}`}>
             <div className={'rating-star-container'}>
                 <Image src={fullStar} alt={''} className={'star star1'}/>
                 <Image src={halfStar} alt={''} className={'star star1-half'}/>
