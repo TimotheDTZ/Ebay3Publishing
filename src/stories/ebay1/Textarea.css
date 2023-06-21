@@ -1,1 +1,58 @@
 /* Ajoutez ici les styles CSS pour le composant Textarea */
+@import url(../../Token/ebay1/colors.css);
+
+.textarea-container {
+    position: relative;
+}
+
+.textarea-label {
+    position: absolute;
+    color: var(--rebirth-on-surface-extra-weak);
+    top: 50%;
+    left: 16px;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.textarea {
+    border-color: var(--rebirth-on-surface-extra-weak);
+    width: 328px;
+    resize: none;
+    padding: 16px;
+    overflow: hidden;
+}
+
+.textarea::placeholder {
+    color: transparent;
+}
+
+.textarea:focus {
+    border: 2px solid var(--rebirth-input-outline-variant);
+    padding: 45px 16px 10px 16px;
+}
+
+.textarea:focus + .textarea-label {
+    top: 30%;
+    display: block;
+}
+
+.textarea:not(:placeholder-shown) + .textarea-label {
+    top: 15%;
+    font-size: small;
+}
+
+/*.textarea {
+    display: block;
+    width: 328px;
+    height: 60px;
+    border-color: var(--rebirth-input-outline);
+    resize: none;
+}
+
+.textarea-container label{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    pointer-events: none;
+}*/

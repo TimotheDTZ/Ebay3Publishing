@@ -25,11 +25,13 @@ export const Textarea = ({
         <div className={`textarea-container ${styleSelector}`}>
             {/* <label className="textarea-label">{label}</label> */}
             <textarea
-                className="textarea"
-                placeholder={label}
+                className={`textarea textarea-${styleSelector.toLowerCase()}`}
+                id={'textarea'}
                 value={withValue ? valueText : ''}
                 onChange={handleChange}
+                placeholder={'text'}
             />
+            <label for="textarea" className={'textarea-label'}>{label}</label>
             {helper && <div className="textarea-helper">Texte d aide</div>}
         </div>
     );
