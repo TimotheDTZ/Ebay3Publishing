@@ -13,5 +13,9 @@ const config: StorybookConfig = {
   docs: {
     autodocs: "tag",
   },
+  features: {
+    buildStoriesJson: true,
+    storyStoreV7: true,
+  },
 };
 export default config;
