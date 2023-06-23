@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="90f440ef-8735-4fd9-9b71-cd796f37e0ed" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.storybook/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/.storybook/main.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storybook-static/stories.json" beforeDir="false" afterPath="$PROJECT_DIR$/storybook-static/stories.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +39,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/ecv/compet/Ebay3Publishing",
+    "last_opened_file_path": "D:/ecv/compet/ebay3",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -85,7 +83,9 @@
       <workItem from="1687336056450" duration="14007000" />
       <workItem from="1687361257747" duration="807000" />
       <workItem from="1687420373262" duration="601000" />
-      <workItem from="1687438445297" duration="1081000" />
+      <workItem from="1687438445297" duration="1683000" />
+      <workItem from="1687470589060" duration="865000" />
+      <workItem from="1687508083605" duration="20000" />
     </task>
     <servers />
   </component>
